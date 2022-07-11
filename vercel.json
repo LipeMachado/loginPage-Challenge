@@ -1,5 +1,5 @@
 {
-  "routes": [
+  "rewrites": [
     { "src": "./src/Pages/LoginPage/", "dest": "/" },
     { "src": "./src/Pages/RegisterPage/", "dest": "/register" }
   ]

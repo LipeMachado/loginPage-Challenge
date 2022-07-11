@@ -3,27 +3,27 @@ import {
     LoginPageContainerDiv,
     LoginPageImageDiv,
     LoginRegisterPageFormContainerDiv,
-    RegisterAccountPageFormDiv,
-    RegisterAccountPageFormTextH4
+    LoginAccountPageFormDiv,
+    LoginAccountPageFormTextH4
 } from './style.jsx';
 
-import { FormLogin } from '../../Components/FormLogin/'
+import { FormRegister } from '../../Components/FormRegister/'
 
 import { ImageLoginPage } from '../../Assets/ImageLoginPage.jsx';
 
-export function LoginPage() {
+export function RegisterPage() {
     return (
         <LoginPageContainerDiv>
             <LoginPageImageDiv>
                 <ImageLoginPage />
             </LoginPageImageDiv>
             <LoginRegisterPageFormContainerDiv>
-                <FormLogin />
-                <RegisterAccountPageFormDiv>
-                    <RegisterAccountPageFormTextH4>
-                        Não tem uma conta? <a href="/register">Cadastra-se</a>
-                    </RegisterAccountPageFormTextH4>
-                </RegisterAccountPageFormDiv>
+                <FormRegister />
+                <LoginAccountPageFormDiv>
+                    <LoginAccountPageFormTextH4>
+                        Já tem uma conta? <a href="/">Logue-se</a>
+                    </LoginAccountPageFormTextH4>
+                </LoginAccountPageFormDiv>
             </LoginRegisterPageFormContainerDiv>
         </LoginPageContainerDiv>
     );

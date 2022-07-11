@@ -27,12 +27,12 @@ export const LoginRegisterPageFormContainerDiv = styled.div`
     justify-content: center;
 `;
 
-export const RegisterAccountPageFormDiv = styled.div`
+export const LoginAccountPageFormDiv = styled.div`
     position: absolute;
     bottom: 50px;
 `;
 
-export const RegisterAccountPageFormTextH4 = styled.h4`
+export const LoginAccountPageFormTextH4 = styled.h4`
     font-family: var(--font-lato);
     font-weight: 400;
     font-size: 16px;

@@ -1,6 +1,6 @@
 {
   "routes": [
-    { "src": "/", "dest": "./src/Pages/LoginPage/" },
-    { "src": "/register", "dest": "./src/Pages/RegisterPage/" }
+    { "src": "./src/Pages/LoginPage/", "dest": "/" },
+    { "src": "./src/Pages/RegisterPage/", "dest": "/register" }
   ]
 }

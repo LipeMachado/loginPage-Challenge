@@ -6,6 +6,7 @@ import {
     LoginAccountPageFormDiv,
     LoginAccountPageFormTextH4
 } from './style.jsx';
+import { Link } from 'react-router-dom';
 
 import { FormRegister } from '../../Components/FormRegister/'
 
@@ -21,7 +22,7 @@ export function RegisterPage() {
                 <FormRegister />
                 <LoginAccountPageFormDiv>
                     <LoginAccountPageFormTextH4>
-                        Já tem uma conta? <a href="/">Logue-se</a>
+                        Já tem uma conta? <Link to="/">Logue-se</Link>
                     </LoginAccountPageFormTextH4>
                 </LoginAccountPageFormDiv>
             </LoginRegisterPageFormContainerDiv>

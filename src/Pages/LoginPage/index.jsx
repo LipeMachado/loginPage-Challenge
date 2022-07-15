@@ -6,6 +6,7 @@ import {
     RegisterAccountPageFormDiv,
     RegisterAccountPageFormTextH4
 } from './style.jsx';
+import { Link } from 'react-router-dom';
 
 import { FormLogin } from '../../Components/FormLogin/'
 
@@ -21,7 +22,7 @@ export function LoginPage() {
                 <FormLogin />
                 <RegisterAccountPageFormDiv>
                     <RegisterAccountPageFormTextH4>
-                        Não tem uma conta? <a href="/register">Cadastra-se</a>
+                        Não tem uma conta? <Link to="/register">Cadastra-se</Link>
                     </RegisterAccountPageFormTextH4>
                 </RegisterAccountPageFormDiv>
             </LoginRegisterPageFormContainerDiv>
